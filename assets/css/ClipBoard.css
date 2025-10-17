@@ -16,7 +16,7 @@ a {
 .container {
   margin: auto;
   width: 1440px;
-  background-image: url("/html-odev/projeler/Clipboard-langind-page/assets/images/hero-bg.png");
+  background-image: url("/assets/images/hero-bg.png");
 
   /* no repeat olmazsa surekli resim devam eder her div olusunca gorunur img */
   background-repeat: no-repeat;
