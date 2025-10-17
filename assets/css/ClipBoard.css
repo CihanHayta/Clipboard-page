@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  width: 1440px;
+  background-image: url("/html-odev/projeler/Clipboard-langind-page/assets/images/hero-bg.png");
+
+  /* no repeat olmazsa surekli resim devam eder her div olusunca gorunur img */
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h2 {
+  color: rgba(76, 84, 92, 1);
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 100%;
+  letter-spacing: -0.75px;
+}
+
+.header p {
+  width: 700px;
+  color: rgba(158, 171, 178, 1);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.header img {
+  width: 125px;
+  margin-top: 128px;
+  margin-bottom: 56px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.btn-ios {
+  background-color: rgba(38, 187, 164, 1);
+
+  padding: 13px 36px;
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.btn-mac {
+  background-color: rgba(97, 116, 255, 1);
+  padding: 13px 36px;
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.header-text {
+  text-align: center;
+  width: 700px;
+  margin-bottom: 80px;
+}
+
+.header-text h2 {
+  color: rgba(76, 84, 92, 1);
+  font-family: Bai Jamjuree SemiBold;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -0.59px;
+  text-align: center;
+}
+
+.header-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.14px;
+  text-align: center;
+}
+
+.i-mac {
+  display: flex;
+  gap: 110px;
+  margin-bottom: 150px;
+}
+
+.i-mac img {
+  margin: -10px;
+  width: 750px;
+  height: 575px;
+}
+
+.imac-text {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.first h2 {
+  color: rgba(76, 84, 92, 1);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.39px;
+  margin-bottom: 8px;
+}
+
+.first p {
+  width: 350px;
+  color: rgba(158, 171, 178, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.12px;
+}
+
+.Clipboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Clipboard img {
+  width: 810px;
+  margin-bottom: 160px;
+}
+.Clipboard-text {
+  width: 730px;
+  margin-bottom: 110px;
+}
+
+.Clipboard-text h2 {
+  color: rgba(76, 84, 92, 1);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: -0.59px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Clipboard-text p {
+  width: 100%;
+  color: rgba(158, 171, 178, 1);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.14px;
+  text-align: center;
+}
+
+.supercharge-text{
+  width: 730px;
+  margin-bottom: 32px;
+}
+.supercharge-text h2{
+  color: rgba(76, 84, 92, 1);
+font-weight: 600;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: -0.59px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.supercharge-text p {
+  color: rgba(158, 171, 178, 1);
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.14px;
+text-align: center;
+margin-bottom: 72px;
+}
+
+.lists{
+  width: 1110px;
+  margin-inline: 165px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 150px;
+  justify-content: center;
+}
+
+.list-text{
+  text-align: center;
+}
+
+.list img {
+  
+margin-left: 150px;
+  width: 43px;
+  margin-bottom: 40px;
+}
+
+.list h2{
+  color: rgba(76, 84, 92, 1);
+  margin-bottom: 16px;
+}
+
+.list p{
+ color: rgba(158, 171, 178, 1);
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.12px;
+text-align: center;
+width: 350px;
+}
+
+.marks{
+  margin-inline: 165px;
+  width: 1110px;
+  margin-bottom: 150px;
+}
+
+.mark{
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+
+.clipboard-ios-mac{
+  margin-inline: 355px;
+  margin-bottom:150px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clipboard-ios-mac h2{
+  color: rgba(76, 84, 92, 1);
+font-weight: 600;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: -0.59px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.clipboard-ios-mac p {
+  color: rgba(158, 171, 178, 1);
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.14px;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.footer{
+  width: 1440px;
+  height: 150px;
+  background-color: #F5F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+}
+
+.footer img{
+  width: 50px;
+}
+
+.footer ul {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+}
+
+.footer ul li{
+  list-style: none;
+  padding: 10px;
+  color: rgba(76, 84, 92, 1);
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.14px;
+
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-inline: 165px;
+}
+
+.social img {
+  width: 24px;
+}
